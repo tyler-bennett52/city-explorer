@@ -5,7 +5,7 @@
 
 ## Time Estimate
 
-### Feature #? - Locations
+### Feature #1 - Locations
 
 Estimate of time needed to complete: 2 hours
 
@@ -15,7 +15,7 @@ Finish time: 1523
 
 Actual time needed to complete: 1 hr 13 min
 
-### Feature #? - Map
+### Feature #2 - Map
 
 Estimate of time needed to complete: 1 hour
 
@@ -25,7 +25,7 @@ Finish time: 1645
 
 Actual time needed to complete: 1 hr
 
-### Feature #? - Errors
+### Feature #3 - Errors
 
 Estimate of time needed to complete: 30 mins
 
@@ -34,6 +34,26 @@ Start time: 1645
 Finish time: 1730
 
 Actual time needed to complete: 45 mins
+
+### Feature #4 - Weather
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 1400
+
+Finish time: 1630
+
+Actual time needed to complete: 2 hrs 30 mins
+
+### Feature #5 - Errors
+
+Estimate of time needed to complete: 5 minutes
+
+Start time: 1700
+
+Finish time: 1715
+
+Actual time needed to complete: 15 mins
 
 ## Overview
 
@@ -47,6 +67,7 @@ To get started stop reading this readme and proceed to tb.city-explorer.netlify.
 
 
 [Day 1 architecture](./public/Screenshot_20230116_055128.png)
+[Day 2 architecture](./public/Screenshot_20230117_032541.png)
 
 Javascript
 React
@@ -55,9 +76,8 @@ Netlify
 
 ## Change Log
 
-
-
 01-16-2023 Application functional. Maps and locations display according to user input.
+01-17-2023 Add extremely limited weather functionality
 
 ## Credit and Collaborations
 
