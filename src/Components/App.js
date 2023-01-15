@@ -19,18 +19,13 @@ handleChange = (event) => {
 
 
 // REFACTOR JUST SAVE WEATHER DATA AND BREAK IT DOWN LATER
-getWeather = async () => {
+getWeather = async (lat, lon) => {
 try {
   let weatherData = await axios.get(`${process.env.REACT_APP_SERVER}/weather?city_name=${this.state.city}`)
-  console.log(weatherData);
+  console.log(weatherData.data);
   this.setState({
-     weatherDateOne: weatherData.data.dateTimeOne,
-     weatherTypeOne: weatherData.data.descriptionOne,
-     weatherDateTwo: weatherData.data.dateTimeTwo,
-     weatherTypeTwo: weatherData.data.descriptionTwo,
-     weatherDateThree: weatherData.data.dateTimeThree,
-     weatherTypeThree: weatherData.data.descriptionThree,
-     weatherResponse: true
+    weatherData: weatherData.data,
+    weatherResponse: true
    })
 } catch (error) {
   this.setState({isError: true, errorMsg: error.message})
@@ -79,12 +74,7 @@ handleSubmit = async (event) => {
        errorMsg={this.state.errorMsg} />}
        {this.state.weatherResponse === true && 
        <Weather
-        weatherDateOne={this.state.weatherDateOne}
-        weatherTypeOne={this.state.weatherTypeOne}
-        weatherDateTwo={this.state.weatherDateTwo}
-        weatherTypeTwo={this.state.weatherTypeTwo}
-        weatherDateThree={this.state.weatherDateThree}
-        weatherTypeThree={this.state.weatherTypeThree}
+        weatherData={this.state.weatherData}
         />
        }
       </div>
