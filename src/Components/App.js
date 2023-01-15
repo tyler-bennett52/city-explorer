@@ -36,7 +36,7 @@ handleSubmit = async (event) => {
   try {
     event.preventDefault();
     let cityData = await axios.get(`https://us1.locationiq.com/v1/search?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&q=${this.state.city}&format=json`)
-    let myServerLatLong = await axios.get(`${process.env.REACT_APP_SERVER}/weather?lat=${cityData.data[0].lat}&lon=${cityData.data[0].lon}&city_name=${this.state.city}`)
+    // let myServerLatLong = await axios.get(`${process.env.REACT_APP_SERVER}/weather?lat=${cityData.data[0].lat}&lon=${cityData.data[0].lon}&city_name=${this.state.city}`)
     let latLong = `${cityData.data[0].lat},${cityData.data[0].lon}`
     this.setState({
       cityData: cityData,
