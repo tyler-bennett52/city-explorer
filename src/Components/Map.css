@@ -1,0 +1,8 @@
+.Map {
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 25px;
+  border: 2px black solid;
+  justify-content: center;
+  align-items: center;
+}

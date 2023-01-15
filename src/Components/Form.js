@@ -11,7 +11,7 @@ class Form extends React.Component {
           placeholder="City Name"
           id="city"
           name="city" />
-          <button>Submit</button>
+          <button>Explore!</button>
       </form>
     )
   }

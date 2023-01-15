@@ -7,13 +7,13 @@
 
 ### Feature #? - Locations
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 2 hours
 
-Start time: _____
+Start time: 1400
 
-Finish time: _____
+Finish time: 1523
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1 hr 13 min
 
 ### Feature #? - Map
 
