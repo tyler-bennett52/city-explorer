@@ -7,7 +7,7 @@ import axios from 'axios'
 class App extends React.Component {
   constructor(props){
     super(props)
-    this.state = {city: '', mapData: false}
+    this.state = {city: '', mapData: false, isError: false}
   }
 
 handleChange = (event) => {
@@ -25,12 +25,13 @@ handleSubmit = async (event) => {
       cityName: cityData.data[0].display_name,
       cityLon: cityData.data[0].lon,
       cityLat: cityData.data[0].lat,
-      mapImg: `https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&center=${latLong}&zoom=10`,
-      mapData: true
+      mapImg: `https://maps.locationiq.com/v3/staticmap?key=${process.env.REACT_APP_LOCATIONIQ_API_KEY}&center=${latLong}&zoom=18`,
+      mapData: true,
+      isError: false
     });
   } catch (error) {
     console.log(error)
-    this.setState({mapData: false})
+    this.setState({mapData: false, isError: true, errorMsg: error.message})
   }
  
 }
@@ -49,6 +50,8 @@ handleSubmit = async (event) => {
           cityLon={this.state.cityLon}
           mapImg={this.state.mapImg}
         />}
+        {this.state.isError === true && 
+        <p>{this.state.errorMsg}</p>}
       </div>
     );
   }

@@ -6,3 +6,7 @@
 html {
   background-color: #ccc;
 }
+
+.error {
+  background-color: hsla(0, 100, 50, .5);
+}
