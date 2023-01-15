@@ -51,7 +51,7 @@ handleSubmit = async (event) => {
           mapImg={this.state.mapImg}
         />}
         {this.state.isError === true && 
-        <p>{this.state.errorMsg}</p>}
+        <p className='error'>{this.state.errorMsg}</p>}
       </div>
     );
   }
