@@ -1,8 +1,9 @@
 import './App.css';
 import React from 'react';
 import Form from './Form';
-import Map from './Map'
-import axios from 'axios'
+import Map from './Map';
+import axios from 'axios';
+import Error from './Error';
 
 class App extends React.Component {
   constructor(props){
@@ -51,7 +52,8 @@ handleSubmit = async (event) => {
           mapImg={this.state.mapImg}
         />}
         {this.state.isError === true && 
-        <p className='error'>{this.state.errorMsg}</p>}
+          <Error
+       errorMsg={this.state.errorMsg} />}
       </div>
     );
   }
