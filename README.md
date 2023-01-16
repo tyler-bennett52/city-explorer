@@ -1,7 +1,7 @@
 # Project Name
 
 **Author**: Tyler Bennett
-**Version**: 0.1.0
+**Version**: 0.2.0
 
 ## Time Estimate
 
@@ -17,42 +17,48 @@ Actual time needed to complete: 1 hr 13 min
 
 ### Feature #? - Map
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 1 hour
 
-Start time: _____
+Start time: 1545
 
-Finish time: _____
+Finish time: 1645
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1 hr
 
 ### Feature #? - Errors
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 30 mins
 
-Start time: _____
+Start time: 1645
 
-Finish time: _____
+Finish time: 1730
 
-Actual time needed to complete: _____
+Actual time needed to complete: 45 mins
 
 ## Overview
 
-<!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
+This is an app that displays information about cities such as which city is the city, and the map to the city and maybe one day even a weather in your city. Please use this app.
 
 ## Getting Started
 
-<!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
+To get started stop reading this readme and proceed to tb.city-explorer.netlify.com
 
 ## Architecture
 
-<!-- Provide a detailed description of the application design. What technologies (languages, libraries, etc) you're using, and any other relevant design information. -->
+
+[Day 1 architecture](./public/Screenshot_20230116_055128.png)
+
+Javascript
+React
+Bootstrap
+Netlify
 
 ## Change Log
 
-<!-- Use this area to document the iterative changes made to your application as each feature is successfully implemented. Use time stamps. Here's an example:
 
-01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
+
+01-16-2023 Application functional. Maps and locations display according to user input.
 
 ## Credit and Collaborations
 
-
+Collaborative effort with Melanie Johnston
