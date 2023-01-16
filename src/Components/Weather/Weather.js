@@ -1,6 +1,7 @@
 import React from "react";
 import Accordion from 'react-bootstrap/Accordion';
 import './Weather.css'
+import WeatherDay from "../WeatherDay/WeatherDay";
 
 let counter = -1;
 
@@ -13,11 +14,14 @@ class Weather extends React.Component {
           {this.props.weatherData.map(day => {
             counter++;
             return (
-              <Accordion.Item eventKey={counter} key={counter}>
-                <Accordion.Header>{day.dateTime}</Accordion.Header>
-                <Accordion.Body>High: {day.highTemp} F  Low: {day.lowTemp} F, {day.description}</Accordion.Body>
-              </Accordion.Item>)
-          })}
+              <WeatherDay 
+              counter = {counter}
+              highTemp = {day.highTemp}
+              lowTemp = {day.lowTemp}
+              dateTime = {day.dateTime}
+              description = {day.description}
+              />
+          )})}
         </Accordion>
 
       </div>
