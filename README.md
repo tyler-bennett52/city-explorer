@@ -85,6 +85,26 @@ Finish time: 1735
 
 Actual time needed to complete: 5 mins
 
+### Feature #9 - Modularize
+
+Estimate of time needed to complete: 30
+
+Start time: 1400
+
+Finish time: 1415
+
+Actual time needed to complete: 15 mins
+
+### Feature #9 - Componentize
+
+Estimate of time needed to complete: 30
+
+Start time: 1420
+
+Finish time: 1445
+
+Actual time needed to complete: 25 mins
+
 ## Overview
 
 This is an app that displays information about cities such as which city is the city, and the map to the city and maybe one day even a weather in your city. Please use this app.
@@ -102,6 +122,8 @@ To get started stop reading this readme and proceed to tb.city-explorer.netlify.
 
 [Day 3 architecture](./public/Screenshot_20230118_022427.png)
 
+[Day 4 architecture](./public/Screenshot_20230119_015928.png)
+
 
 Javascript
 React
@@ -111,7 +133,12 @@ Netlify
 ## Change Log
 
 01-16-2023 Application functional. Maps and locations display according to user input.
+
 01-17-2023 Add extremely limited weather functionality
+
+01-18-2023 Finish Weather and Movie API integration
+
+01-19-2023 Componentize and Modularize
 
 ## Credit and Collaborations
 
