@@ -1,5 +1,6 @@
 import React from "react";
 import './MovieBox.css'
+import Card from 'react-bootstrap/Card';
 
 let counter = -1;
 
@@ -11,11 +12,13 @@ class MovieBox extends React.Component {
         <div className="MovieBox">
           {this.props.movieData.map(movie => {
             counter++;
-            return (
-              <div className="movie" key={counter}>
-                <h3 className="movie=title">{movie.title}</h3>
-                <img src={`https://image.tmdb.org/t/p/w500/${movie.posterImg}`} alt={movie.title} />
-              </div>
+            return (  
+              <Card style={{ width: '18rem' }}>
+      <Card.Body>
+        <Card.Title>{movie.title}</Card.Title>
+      <Card.Img variant="top" src={`https://image.tmdb.org/t/p/w500${movie.posterImg}`} />
+      </Card.Body>
+    </Card>
             )
           })}
         </div>

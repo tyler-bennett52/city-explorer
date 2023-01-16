@@ -7,13 +7,3 @@
   /* gap:1em; */
   justify-content: space-between;
 }
-.MovieBox img {
-  width: 200px;
-  height: 300px;
-}
-
-
-.section-header {
-  width: 30%;
-  margin: 0 auto;
-} 
