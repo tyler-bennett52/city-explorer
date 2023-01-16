@@ -55,6 +55,36 @@ Finish time: 1715
 
 Actual time needed to complete: 15 mins
 
+### Feature #6 - Weather
+
+Estimate of time needed to complete: 1 hour
+
+Start time: 1400
+
+Finish time: 1515
+
+Actual time needed to complete: 1 hr 15 mins
+
+### Feature #7 - Movies
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 1530
+
+Finish time: 1730
+
+Actual time needed to complete: 2 hours
+
+### Feature #8 - Publish
+
+Estimate of time needed to complete: 5 minutes
+
+Start time: 1730
+
+Finish time: 1735
+
+Actual time needed to complete: 5 mins
+
 ## Overview
 
 This is an app that displays information about cities such as which city is the city, and the map to the city and maybe one day even a weather in your city. Please use this app.
@@ -69,6 +99,8 @@ To get started stop reading this readme and proceed to tb.city-explorer.netlify.
 [Day 1 architecture](./public/Screenshot_20230116_055128.png)
 
 [Day 2 architecture](./public/Screenshot_20230117_032541.png)
+
+[Day 3 architecture](./public/Screenshot_20230118_022427.png)
 
 
 Javascript

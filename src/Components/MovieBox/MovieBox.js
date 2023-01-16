@@ -13,7 +13,7 @@ class MovieBox extends React.Component {
           {this.props.movieData.map(movie => {
             counter++;
             return (  
-              <Card style={{ width: '18rem' }}>
+              <Card style={{ width: '18rem' }} key={counter}>
       <Card.Body>
         <Card.Title>{movie.title}</Card.Title>
       <Card.Img variant="top" src={`https://image.tmdb.org/t/p/w500${movie.posterImg}`} />
