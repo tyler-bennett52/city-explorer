@@ -67,7 +67,9 @@ To get started stop reading this readme and proceed to tb.city-explorer.netlify.
 
 
 [Day 1 architecture](./public/Screenshot_20230116_055128.png)
+
 [Day 2 architecture](./public/Screenshot_20230117_032541.png)
+
 
 Javascript
 React
