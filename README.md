@@ -105,6 +105,16 @@ Finish time: 1445
 
 Actual time needed to complete: 25 mins
 
+### Feature #9 - Started Code debug
+
+Estimate of time needed to complete: 30
+
+Start time: 1345
+
+Finish time: 1415
+
+Actual time needed to complete: 30 mins
+
 ## Overview
 
 This is an app that displays information about cities such as which city is the city, and the map to the city and maybe one day even a weather in your city. Please use this app.
@@ -139,6 +149,8 @@ Netlify
 01-18-2023 Finish Weather and Movie API integration
 
 01-19-2023 Componentize and Modularize
+
+01-20-2023 Implement started code with fixes
 
 ## Credit and Collaborations
 
